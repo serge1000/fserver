@@ -59,6 +59,7 @@ wss.on("connection", ws => {
 }); 
 
 // FUNCTIONS ------------------
+
 // Generate fake images and send them to app server
 const sendFakeImages = async (imageNumber,ws) => {
     const results = [];
